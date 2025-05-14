@@ -1,5 +1,5 @@
 // touch.c - MIT License
-// Copyright (c) 2025 Karmak
+// Copyright (c) 2025 Erwin Darani
 
 #include <stdio.h>
 #include <windows.h>
