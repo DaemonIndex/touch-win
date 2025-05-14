@@ -61,5 +61,19 @@ Add %USERPROFILE%\bin to the PATH environment variable.
 touch nomefile.txt
 touch file1.txt file2.cpp file3.md
 ```
+If the file __does not exist__, it will be created.
+If the file __already exist__, its access and modification timestamps will be updated.
+
+## Optional Flag: `--force`
+
+You can add the `--force` flag __at the end__ of the command to automatically create any missing directories in the path:
+
+```bash
+touch path\to\new\folder\file.txt --force
+```
+
+🔧 Without `--force`, the program will fail if the folder does not exist.
+✅ With `--force`, missing directories will be created automatically before touching the file.
 
 ---
+
