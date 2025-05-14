@@ -78,3 +78,13 @@ touch path\to\new\folder\file.txt --force
 
 ---
 
+### 🚨 **Administrator Privileges**
+
+In some cases, especially when creating directories or writing files in system-protected folders (like `C:\Program Files`, `C:\Windows`, or other restricted locations), **administrator privileges** may be required.
+
+To run the program with administrator rights:
+
+1. **Right-click** on the Command Prompt (cmd) or PowerShell and select **Run as Administrator**.
+2. Then, run the `touch` command as usual.
+
+If you're working in user-specific directories (e.g., `C:\Users\<YourUsername>\Documents`), **administrator privileges are not necessary**.
