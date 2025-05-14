@@ -73,6 +73,7 @@ touch path\to\new\folder\file.txt --force
 ```
 
 🔧 Without `--force`, the program will fail if the folder does not exist.
+
 ✅ With `--force`, missing directories will be created automatically before touching the file.
 
 ---
